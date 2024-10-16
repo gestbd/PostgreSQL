@@ -28,6 +28,7 @@ services:
       - postgres
     volumes:
       - ./datapga:/tmpdata
+      - ./dataexample:/var/lib/pgadmin/storage/admin_example.com
     networks:
           - gestbd_net
       
