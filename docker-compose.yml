@@ -35,3 +35,4 @@ services:
 networks:
     gestbd_net:
       external: true
+      
